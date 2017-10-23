@@ -1,0 +1,127 @@
+/*
+Theme Name: Tooba
+Theme URI: https://cpsharp.net/tooba
+Author: CP Sharp, LLC
+Author URI: https://cpsharp.net/
+Description: Wordpress Theme for Tooba.in
+Version: 1
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: tooba
+Tags: tooba, cpsharp
+*/
+@import 'compass/reset';
+@import 'compass/css3';
+@import 'compass/css3/transition';
+@import 'compass/css3/font-face';
+@import 'style/fonts';
+
+$fontstack: "Poppins", sans-serif;
+$bg: #fff;
+$darkgray: rgb(55, 55, 55);
+$toobagray: rgb(136, 136, 136);
+$toobagreen: rgb(150, 200, 50);
+
+body {
+  @include font-smoothing;
+  color: $darkgray;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: .5px;
+  line-height: 26px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+ul.menu {
+  display: block;
+  float: right;
+  height: 100%;
+  margin-right: 4vw;
+
+  li {
+    color: $toobagray;
+    float: left;
+    font-size: 1.5vh;
+    font-weight: 600;
+    letter-spacing: .1vw;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin: 40px 1vw 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $toobagray;
+    @include transition(all .5s ease);
+
+    &:visited {
+      color: $toobagray;
+    }
+  }
+
+  a:hover {
+    color: $toobagreen;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    .navbar-default {
+      @include transition(all, .2s, ease-in-out);
+      background: $bg;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+    }
+
+    .container {
+      height: 80px;
+      padding: 1vh 2vw;
+      width: 100vw;
+    }
+  }
+
+  .menu-main-menu-container {
+    margin: 0 0 0 10vw;
+    text-align: center;
+  }
+
+  .navbar-header {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    max-height: 80px;
+
+    .custom-logo-link {
+      margin: 0 10vw;
+    }
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.icon-trophy {
+  font-size: 64px;
+}
+
+.pad30 {
+  padding: 30px 0;
+}
+
+.greenbuffer {
+  background-color: $toobagreen;
+}
+
+.navbar {
+  min-height: 50px;
+}
