@@ -125,3 +125,16 @@ h3 {
 .navbar {
   min-height: 50px;
 }
+
+.col-md-6, .col-sm-6 {
+  &:after {
+    content: '\200b';
+  }
+  max-width: 48vw;
+  min-height: 1px;
+  width: 100vw;
+  float: left;
+  height: 100%;
+  margin-left: .5vw;
+  margin-right: .5vw;
+}

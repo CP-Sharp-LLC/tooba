@@ -732,3 +732,18 @@ h3 {
 .navbar {
   min-height: 50px;
 }
+
+/* line 129, style.scss */
+.col-md-6, .col-sm-6 {
+  max-width: 48vw;
+  min-height: 1px;
+  width: 100vw;
+  float: left;
+  height: 100%;
+  margin-left: .5vw;
+  margin-right: .5vw;
+}
+/* line 130, style.scss */
+.col-md-6:after, .col-sm-6:after {
+  content: '\200b';
+}

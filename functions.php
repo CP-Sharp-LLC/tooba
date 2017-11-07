@@ -9,6 +9,8 @@
  * @since 1.0
  */
 
+require_once 'shortcodes.php';
+
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -47,9 +49,23 @@ function tooba_setup() {
  	 */
 	add_editor_style( array( 'assets/css/editor-style.css', tooba_fonts_url() ) );
 
+	add_shortcodes();
 }
 
 add_action( 'after_setup_theme', 'tooba_setup' );
+
+function add_shortcodes(){
+	add_shortcode( 'about_page', 'sc_about' );
+	add_shortcode( 'header_banner', 'sc_headerbanner' );
+	add_shortcode( 'jazzy_counter', 'sc_counter' );
+	add_shortcode( 'productfeed', 'sc_productfeed');
+	add_shortcode( 'team', 'sc_team');
+	add_shortcode( 'contact_us', 'sc_contact');
+	add_shortcode( 'latest_news', 'sc_news');
+	add_shortcode( 'testimonials', 'sc_testimonials');
+	add_shortcode( 'footer', 'sc_footer');
+}
+
 
 /**
  * Register custom fonts.
