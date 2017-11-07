@@ -10,7 +10,7 @@ License URI: https://opensource.org/licenses/MIT
 Text Domain: tooba
 Tags: tooba, cpsharp
 */
-/* line 5, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,45 +32,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../Apps/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -635,20 +635,21 @@ ul.menu {
   display: block;
   float: right;
   height: 100%;
-  margin-right: 4vw;
+  margin-right: 0;
+  width: 80%;
 }
-/* line 45, style.scss */
+/* line 46, style.scss */
 ul.menu li {
   color: #888888;
   float: left;
-  font-size: 1.5vh;
+  font-size: 1.3vw;
   font-weight: 600;
   letter-spacing: .1vw;
   line-height: 45px;
   text-transform: uppercase;
-  margin: 40px 1vw 0;
+  margin: 40px 0.8% 0;
 }
-/* line 56, style.scss */
+/* line 57, style.scss */
 ul.menu a {
   text-decoration: none;
   color: #888888;
@@ -657,17 +658,17 @@ ul.menu a {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 61, style.scss */
+/* line 62, style.scss */
 ul.menu a:visited {
   color: #888888;
 }
-/* line 66, style.scss */
+/* line 67, style.scss */
 ul.menu a:hover {
   color: #96c832;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 73, style.scss */
+  /* line 74, style.scss */
   .navbar .navbar-default {
     -moz-transition: all, 0.2s, ease-in-out;
     -o-transition: all, 0.2s, ease-in-out;
@@ -678,72 +679,73 @@ ul.menu a:hover {
     border-radius: 0;
     margin-bottom: 0;
   }
-  /* line 81, style.scss */
+  /* line 82, style.scss */
   .navbar .container {
     height: 80px;
-    padding: 1vh 2vw;
-    width: 100vw;
+    padding: 1vh 0 1% 0;
+    width: 99%;
   }
 
-  /* line 88, style.scss */
+  /* line 89, style.scss */
   .menu-main-menu-container {
-    margin: 0 0 0 10vw;
+    margin: 0 0 0 10%;
     text-align: center;
   }
 
-  /* line 93, style.scss */
+  /* line 94, style.scss */
   .navbar-header {
     float: left;
     margin-left: 0;
     margin-right: 0;
     max-height: 80px;
+    width: 25%;
   }
-  /* line 99, style.scss */
+  /* line 101, style.scss */
   .navbar-header .custom-logo-link {
-    margin: 0 10vw;
+    margin: 0 0 0 50%;
   }
 
-  /* line 104, style.scss */
+  /* line 106, style.scss */
   .menu-toggle {
     display: none;
   }
 }
-/* line 109, style.scss */
+/* line 111, style.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 113, style.scss */
+/* line 115, style.scss */
 .icon-trophy {
   font-size: 64px;
 }
 
-/* line 117, style.scss */
+/* line 119, style.scss */
 .pad30 {
   padding: 30px 0;
 }
 
-/* line 121, style.scss */
-.greenbuffer {
+/* line 123, style.scss */
+.green_buffer {
   background-color: #96c832;
 }
 
-/* line 125, style.scss */
+/* line 127, style.scss */
 .navbar {
   min-height: 50px;
 }
 
-/* line 129, style.scss */
+/* line 131, style.scss */
 .col-md-6, .col-sm-6 {
-  max-width: 48vw;
+  max-width: 45%;
   min-height: 1px;
-  width: 100vw;
+  width: 100%;
   float: left;
   height: 100%;
-  margin-left: .5vw;
-  margin-right: .5vw;
+  margin: 0 2.5%;
+  padding: 0;
 }
-/* line 130, style.scss */
+/* line 132, style.scss */
 .col-md-6:after, .col-sm-6:after {
   content: '\200b';
 }

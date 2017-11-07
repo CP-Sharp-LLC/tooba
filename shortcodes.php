@@ -9,7 +9,7 @@ function sc_headerbanner( $atts, $content = null ) {
 
 	return "
 <div>
-	<div class='pad30 greenbuffer'>
+	<div class='pad30 green_buffer'>
 		<h3 style='text-align: center; text-transform: uppercase;'>
 		<span style='font-size: 80px; padding: 0 10px; font-family: 'Poppins',sans-serif; top: 1vh; position: relative;'>"
 	       . $a['number'] .
