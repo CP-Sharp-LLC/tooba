@@ -613,7 +613,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   content: '\e023';
 }
 
-/* line 25, style.scss */
+/* line 26, style.scss */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -625,12 +625,12 @@ body {
   overflow-x: hidden;
 }
 
-/* line 35, style.scss */
+/* line 36, style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-/* line 39, style.scss */
+/* line 40, style.scss */
 ul.menu {
   display: block;
   float: right;
@@ -638,7 +638,7 @@ ul.menu {
   margin-right: 0;
   width: 80%;
 }
-/* line 46, style.scss */
+/* line 47, style.scss */
 ul.menu li {
   color: #888888;
   float: left;
@@ -649,7 +649,7 @@ ul.menu li {
   text-transform: uppercase;
   margin: 40px 0.8% 0;
 }
-/* line 57, style.scss */
+/* line 58, style.scss */
 ul.menu a {
   text-decoration: none;
   color: #888888;
@@ -658,17 +658,17 @@ ul.menu a {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 62, style.scss */
+/* line 63, style.scss */
 ul.menu a:visited {
   color: #888888;
 }
-/* line 67, style.scss */
+/* line 68, style.scss */
 ul.menu a:hover {
   color: #96c832;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 74, style.scss */
+  /* line 75, style.scss */
   .navbar .navbar-default {
     -moz-transition: all, 0.2s, ease-in-out;
     -o-transition: all, 0.2s, ease-in-out;
@@ -679,20 +679,20 @@ ul.menu a:hover {
     border-radius: 0;
     margin-bottom: 0;
   }
-  /* line 82, style.scss */
+  /* line 83, style.scss */
   .navbar .container {
     height: 80px;
     padding: 1vh 0 1% 0;
     width: 99%;
   }
 
-  /* line 89, style.scss */
+  /* line 90, style.scss */
   .menu-main-menu-container {
     margin: 0 0 0 10%;
     text-align: center;
   }
 
-  /* line 94, style.scss */
+  /* line 95, style.scss */
   .navbar-header {
     float: left;
     margin-left: 0;
@@ -700,42 +700,42 @@ ul.menu a:hover {
     max-height: 80px;
     width: 25%;
   }
-  /* line 101, style.scss */
+  /* line 102, style.scss */
   .navbar-header .custom-logo-link {
     margin: 0 0 0 50%;
   }
 
-  /* line 106, style.scss */
+  /* line 107, style.scss */
   .menu-toggle {
     display: none;
   }
 }
-/* line 111, style.scss */
+/* line 112, style.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 115, style.scss */
+/* line 116, style.scss */
 .icon-trophy {
   font-size: 64px;
 }
 
-/* line 119, style.scss */
+/* line 120, style.scss */
 .pad30 {
   padding: 30px 0;
 }
 
-/* line 123, style.scss */
+/* line 124, style.scss */
 .green_buffer {
   background-color: #96c832;
 }
 
-/* line 127, style.scss */
+/* line 128, style.scss */
 .navbar {
   min-height: 50px;
 }
 
-/* line 131, style.scss */
+/* line 132, style.scss */
 .col-md-6, .col-sm-6 {
   max-width: 45%;
   min-height: 1px;
@@ -745,7 +745,7 @@ h3 {
   margin: 0 2.5%;
   padding: 0;
 }
-/* line 132, style.scss */
+/* line 133, style.scss */
 .col-md-6:after, .col-sm-6:after {
   content: '\200b';
 }
