@@ -100,12 +100,10 @@ function sc_about( $atts, $content = null ) {
                                                     </div>
                                                 </div> 
                                             </div>
-                                        </div>
-                                        
+                                        </div>                                        
                                     </div>
                                 </div>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
                 </div>
