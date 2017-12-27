@@ -10,7 +10,7 @@
  */
 
 require_once 'shortcodes.php';
-
+require_once 'tooba.admin.php';
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -42,7 +42,6 @@ function tooba_setup() {
 
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
-
 	/*
 	 * This theme styles the visual editor to resemble the theme style,
 	 * specifically font, colors, and column width.
@@ -111,12 +110,12 @@ function tooba_scripts() {
 	wp_enqueue_style( 'tooba-fonts', tooba_fonts_url(), array(), null );
 	wp_enqueue_style( 'tooba-style', get_stylesheet_uri() );
 	//wp_enqueue_style( 'bootstrap', get_theme_file_uri( '/style/bootstrap.min.css' ) );
-//	wp_register_script( 'jq3', get_theme_file_uri( '/js/jquery-3.1.1.min.js' ) );
+	wp_register_script( 'cpsharp', get_theme_file_uri( '/js/cpsharp.js' ) );
 	//wp_register_script( 'bootstrapbundle', get_theme_file_uri( '/js/bootstrap.bundle.min.js' ), [ 'jq3' ] );
-	//wp_register_script( 'bootstrap', get_theme_file_uri( '/js/bootstrap.min.js' ), [ 'bootstrapbundle' ] );
-//	wp_enqueue_script( 'jq3' );
+	wp_register_script( 'bootstrapjs', get_theme_file_uri( '/js/bootstrap.min.js' ), [ 'bootstrapbundle' ] );
+	wp_enqueue_script( 'cpsharp' );
 	//wp_enqueue_script( 'bootstrapbundle' );
-//	wp_enqueue_script( 'bootstrap' );
+	// wp_enqueue_script( 'bootstrapjs' );
 
 	$twentyseventeen_l10n = array(
 		'quote' => twentyseventeen_get_svg( array( 'icon' => 'quote-right' ) ),
